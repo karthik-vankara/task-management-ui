@@ -10,6 +10,8 @@ function App() {
         <p>
           Edit <code>src/App.tsx</code> and save to reload.
         </p>
+        <p>Google Client ID: {process.env.REACT_APP_GOOGLE_CLIENT_ID ? 'Loaded' : 'Not Loaded'}</p>
+        <p>Environment: {process.env.REACT_APP_ENV}</p>
         <a
           className="App-link"
           href="https://reactjs.org"
