@@ -16,11 +16,8 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 
-# Local env files
+# Environment files
 .env.local
-.env.development.local
-.env.test.local
-.env.production.local
 .env
 *.env
 
@@ -113,8 +110,6 @@ jspm_packages/
 # Yarn Integrity file
 .yarn-integrity
 
-# dotenv environment variables file
-.env.test
 
 # parcel-bundler cache (https://parceljs.org/)
 .parcel-cache
